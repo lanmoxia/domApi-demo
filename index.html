@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+  <style>
+    .red {
+      background: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='oldParent'>
+    加哥哥弟弟和换个父元素函数
+    <div id="child"></div>
+  </div>
+  <div id="remove">删除节点函数</div>
+  <div id="empty">
+    删除所有子元素函数
+    <div id="e1"></div>
+    <div id="e2"></div>
+    <div id="e3"></div>
+    <div id="e4"></div>
+  </div>
+  <div id="setTitle">设置读取 title 函数</div>
+  <div id="text">
+    <p>修改读取节点内容函数</p>
+  </div>
+  <div id="html">修改读取 html 内容函数</div>
+  <div id="style">设置修改读取 style 样式函数</div>
+  <div id="addClass">div添加移除读取classStyle 函数</div>
+  <div id="xxx">点击我 函数</div>
+
+  <div>
+    <div id="findNode1">
+      <p class="red">p1</p>
+    </div>
+    这是通过选择器内的 className 查找元素的函数
+    <div id="findNode2">
+      <p class="red">p2</p>
+    </div>
+  </div>
+
+  <ul id="parent1">
+    这是查找父节点函数
+    <li>1</li>
+    <li>2</li>
+    <li id="li3">3</li>
+  </ul>
+
+  <div id="parent2">
+    <p>1</p>
+    <p id="p2">2</p>
+    <p>3</p>
+  </div>
+
+  <div id="parent3">
+    <div id="one">1</div>
+    <div id="two">2</div>
+    <div id="three">3</div>
+  </div>
+
+  <script src="dom.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
